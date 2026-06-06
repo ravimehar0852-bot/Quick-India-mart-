@@ -159,11 +159,10 @@ function initReviews() {
 const faqs = [
   { q: 'How long does delivery take?',             a: 'We dispatch within 24 hours of order confirmation. Delivery takes 4–7 business days depending on your location. Express delivery options are available in select cities.' },
   { q: 'Is Cash on Delivery available?',           a: 'Yes! We offer Cash on Delivery (COD) all across India at no extra charge. Pay only when you receive your saree at your doorstep.' },
-  { q: 'What is the return and exchange policy?',  a: 'We offer a hassle-free 7-day return and exchange policy. If you receive a damaged or incorrect product, contact us within 7 days of delivery via WhatsApp.' },
+  { q: 'What is the return and exchange policy?',  a: 'Returns are not allowed after delivery.}
   { q: 'Is the quality exactly as shown?',         a: 'Absolutely! The saree is exactly as described and pictured. We use high-quality Jimmy Choo fabric with real Jarkan diamond stones and pure Hart Gold Zari work.' },
   { q: 'What sizes are available for the blouse?', a: 'The blouse piece is unstitched, so you can get it stitched according to your custom measurements. The fabric provided is sufficient for sizes up to 42 inches.' },
   { q: 'Which payment methods do you accept?',     a: 'We accept Cash on Delivery (COD), PhonePe, Google Pay, Paytm, and BHIM UPI. All payment modes are 100% safe and secure.' },
-  { q: 'Can I exchange if the color is different?', a: 'Yes, we accept exchanges within 7 days if the color significantly differs from what was ordered. Please contact our WhatsApp support with photos.' },
   { q: 'What is the saree material?',              a: 'The saree is made from premium Heavy Jimmy Choo fabric, known for its luxurious drape and rich texture. It features pure Hart Gold Zari and full heavy Jarkan diamond stonework.' },
   { q: 'How do I track my order?',                 a: 'Once your order is dispatched, you will receive a tracking number on your registered mobile via WhatsApp. You can track your shipment in real time.' },
   { q: 'Is there a discount for bulk orders?',     a: 'Yes! For orders of 3 or more sarees, we offer special bulk pricing. Please contact us on WhatsApp at +91 8504843164 for bulk order inquiries.' },
