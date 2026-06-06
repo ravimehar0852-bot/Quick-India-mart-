@@ -58,7 +58,12 @@ input, select, textarea { font-family: inherit; }
 /* ============================================================
    LOADING SCREEN
    ============================================================ */
-  transition: opacity 0.6s ease, visibility 0.6s;
+  #loadingScreen {
+  position: fixed; inset: 0;
+  background: var(--hero-grad);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 9999
+transition: opacity 0.6s ease, visibility 0.6s;
 }
 #loadingScreen.hide { opacity: 0; visibility: hidden; pointer-events: none; }
 
