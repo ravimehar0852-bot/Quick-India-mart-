@@ -7,7 +7,14 @@
 // ============================================================
 // LOADING SCREEN
 // ============================================================
-
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const loader = document.getElementById('loadingScreen');
+    if (loader) loader.classList.add('hide');
+    setTimeout(() => { if (loader) loader.remove(); }, 700);
+    initAll();
+  }, 2400);
+});
 
 function initAll() {
   initScrollAnimations();
