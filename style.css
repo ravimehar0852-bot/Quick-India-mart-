@@ -96,7 +96,7 @@ input, select, textarea { font-family: inherit; }
    ============================================================ */
 #visitorBadge {
   position: fixed; top: 80px; right: 16px;
-  background: rgba(13,27,75,0.9);
+  background: rgba(255,255,255,0.95);
   backdrop-filter: blur(10px);
   color: var(--white);
   font-size: 0.78rem;
